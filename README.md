@@ -53,4 +53,6 @@ d2j-dex2jar.bat D:\Android\apk\Bmi\classes.dex
 
 >强烈推荐,工具整合的相当完善
 
+![](https://github.com/hammercui/android-reverse/raw/master/preview/apkkill1.png)
 
+![](https://github.com/hammercui/android-reverse/raw/master/preview/apkkill2.png)
