@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="id" name="featureview">false</item>
+    <item type="id" name="featurebar">false</item>
+    <item type="id" name="feature_image">false</item>
+    <item type="id" name="feature_gamename">false</item>
+    <item type="id" name="feature_companyname">false</item>
+    <item type="id" name="download_image">false</item>
+    <item type="id" name="feature_pic">false</item>
+    <item type="id" name="location">false</item>
+    <item type="id" name="dm_fullscreen_mask">false</item>
+    <item type="id" name="dm_fullscreen_relativelayout">false</item>
+    <item type="id" name="dm_fullscreen_imagelayout">false</item>
+    <item type="id" name="dm_fullscreen_image">false</item>
+    <item type="id" name="dm_fullscreen_framelayout">false</item>
+    <item type="id" name="dm_moregames_linelayout">false</item>
+    <item type="id" name="title">false</item>
+    <item type="id" name="dm_moregames_title">false</item>
+    <item type="id" name="dm_moregames_webview">false</item>
+    <item type="id" name="featureview_horizontal">false</item>
+    <item type="id" name="featureview1">false</item>
+    <item type="id" name="featureview2">false</item>
+    <item type="id" name="moregames">false</item>
+    <item type="id" name="show_all">false</item>
+    <item type="id" name="moregames_layout">false</item>
+    <item type="id" name="show_next">false</item>
+    <item type="id" name="fake">false</item>
+    <item type="id" name="fake_loading">false</item>
+</resources>

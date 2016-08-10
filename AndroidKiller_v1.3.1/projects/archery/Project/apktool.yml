@@ -1,0 +1,31 @@
+version: 2.0.2-SNAPSHOT
+apkFileName: archery.apk
+isFrameworkApk: false
+usesFramework:
+  ids:
+  - 1
+sdkInfo:
+  minSdkVersion: '7'
+  targetSdkVersion: '21'
+packageInfo:
+  forced-package-id: '127'
+versionInfo:
+  versionCode: '38'
+  versionName: '3.3'
+sharedLibrary: false
+unknownFiles:
+  com/tapjoy/res/tj_close_button.png: '8'
+  com/turbomanage/httpclient/License: '8'
+  js/closebutton.html: '8'
+  js/mraid.js: '8'
+  META-INF/MANIFEST.MF: '8'
+doNotCompress:
+- resources.arsc
+- assets/mbjcore.res
+- assets/bin/Data/ab291facec06d034383fd8405ac022e8
+- assets/bin/Data/bf46a06130b9e3a458d52aad94a38bea
+- assets/bin/Data/d3412c2ec869c6e44aef73a4c331000d
+- assets/bin/Data/d7ffcf25c7b9ce045a70c38ef19d9975
+- assets/bin/Data/fa0bca57fdcb57c4d8a08bcaa40315ae
+DecodeFileMaps: {}
+DexMaps: {}

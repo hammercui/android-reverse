@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="#ff016bbe" android:layout_width="fill_parent" android:layout_height="50.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:background="@drawable/dm_featureview_layout_admob_bg" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_margin="1.0dip">
+        <ImageView android:id="@id/feature_image" android:paddingLeft="3.0dip" android:visibility="visible" android:layout_width="46.0dip" android:layout_height="46.0dip" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+        <ImageView android:id="@id/download_image" android:paddingRight="5.0dip" android:visibility="visible" android:layout_width="40.0dip" android:layout_height="40.0dip" android:src="@drawable/dm_featureview_layout_admob_arraw" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+        <TextView android:textSize="13.0sp" android:typeface="sans" android:textStyle="bold" android:textColor="#ffffffff" android:id="@id/feature_gamename" android:paddingLeft="3.0dip" android:paddingRight="3.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toLeftOf="@id/download_image" android:layout_toRightOf="@id/feature_image" />
+        <TextView android:textSize="11.0sp" android:typeface="sans" android:textStyle="normal" android:textColor="#ffffffff" android:id="@id/feature_companyname" android:paddingLeft="3.0dip" android:paddingRight="3.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toLeftOf="@id/download_image" android:layout_toRightOf="@id/feature_image" android:layout_below="@id/feature_gamename" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/feature_pic" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</RelativeLayout>

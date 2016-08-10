@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:id="@id/dm_moregames_linelayout" android:background="#ff999999" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:id="@id/title" android:background="#ff990000" android:layout_width="fill_parent" android:layout_height="30.0dip">
+        <TextView android:textSize="18.0sp" android:textStyle="bold" android:textColor="@android:color/white" android:layout_gravity="center" android:id="@id/dm_moregames_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:text="More Games" />
+    </LinearLayout>
+    <WebView android:id="@id/dm_moregames_webview" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/title" />
+</RelativeLayout>

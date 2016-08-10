@@ -1,0 +1,21 @@
+.class public interface abstract Lcom/google/android/gms/location/LocationClient$OnRemoveGeofencesResultListener;
+.super Ljava/lang/Object;
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lcom/google/android/gms/location/LocationClient;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x609
+    name = "OnRemoveGeofencesResultListener"
+.end annotation
+
+
+# virtual methods
+.method public abstract onRemoveGeofencesByPendingIntentResult(ILandroid/app/PendingIntent;)V
+.end method
+
+.method public abstract onRemoveGeofencesByRequestIdsResult(I[Ljava/lang/String;)V
+.end method
