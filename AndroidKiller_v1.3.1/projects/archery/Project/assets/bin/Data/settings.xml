@@ -1,9 +1,0 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
-<settings>
-  <integer name="gles_mode">2</integer>
-  <integer name="splash_mode">0</integer>
-  <bool name="hide_status_bar">True</bool>
-  <bool name="32bit_display">False</bool>
-  <bool name="24bit_depth">False</bool>
-  <integer name="default_aa">2</integer>
-</settings>
