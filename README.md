@@ -52,7 +52,20 @@ d2j-dex2jar.bat D:\Android\apk\Bmi\classes.dex
 ## [AndroidKiller1.3.1](http://www.pd521.com/forum.php?mod=viewthread&tid=136&extra=page%3D1&page=1)
 
 >强烈推荐,工具整合的相当完善
+>[百度云盘地址](http://pan.baidu.com/s/1slQW5m1)
 
 ![](https://github.com/hammercui/android-reverse/raw/master/preview/apkkill1.png)
 
 ![](https://github.com/hammercui/android-reverse/raw/master/preview/apkkill2.png)
+
+
+# 基础知识
+
+## APK、Dalvik字节码和smali文件
+
+[APK反编译之一：基础知识--smali文件阅读](http://blog.csdn.net/chenrunhua/article/details/41250613):本篇文章结合一个activity.smali文件，来讲解smali的基础语法。
+
+[smali语法简析](http://blog.csdn.net/jimmy5z/article/details/12119739):更为详细的讲解
+* 讲述v本地寄存器，p参数寄存器的区别
+* Long和Double类型是64位的，需要2个寄存器
+* 非静态参数寄存器，p0代指`this`
